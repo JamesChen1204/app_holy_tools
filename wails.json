@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "powermoat_app_tools",
+  "outputfilename": "powermoat_app_tools",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Franco",
+    "email": ""
+  },
+  "info": {
+    "companyName": "",
+    "productName": "powermoat_app_tools",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright.........",
+    "comments": "Built using Wails (https://wails.io)"
+  },
+  "nsisType": "multiple",
+  "obfuscated": false,
+  "debounceMS": 100,
+  "runNonNativeBuildScript": false
+}
